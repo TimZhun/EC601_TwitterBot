@@ -20,12 +20,10 @@ auth.set_access_token(access_token, access_token_secret)
 api =tweepy.API(auth)
 public_tweets = api.home_timeline()
 
+###Writes last 20 twits in file 
 for tweet in public_tweets:
   print(tweet.text)
-
 print(public_tweets[0].user.screen_name)
-
-###Writes last 20 twits in file 
 columns = ['Time', 'User', 'Tweet']
 data = []
 for tweet in public_tweets:
