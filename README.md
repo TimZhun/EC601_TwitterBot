@@ -1,5 +1,13 @@
 
 # EC601_TwitterBot
+Using Twitter, googleNLP and Bototmeter API to check someones account by sending twitter name and number of tweets to check:
+**Example1:**
+Checking last tweets
+![enter image description here](https://i.imgur.com/nETbmjw.png)
+**Example2:**
+Checking BU account 
+![enter image description here](https://i.imgur.com/R4MSJkK.png)
+
 Using twitter api for Project 2
 **Search tweets by Hashtags**
 hashtag = '#Boston_University'
